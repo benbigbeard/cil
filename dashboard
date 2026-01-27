@@ -1,0 +1,846 @@
+{
+    "title": "i-Cooling",
+    "description": "",
+    "inputs": {},
+    "defaults": {
+        "dataSources": {
+            "ds.search": {
+                "options": {
+                    "queryParameters": {
+                        "earliest": "$global_time.earliest$",
+                        "latest": "$global_time.latest$"
+                    }
+                }
+            }
+        }
+    },
+    "visualizations": {
+        "viz_03OHIkTg": {
+            "dataSources": {
+                "primary": "ds_XKhQvV7w_ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_46ZIKdxp": {
+            "dataSources": {
+                "primary": "ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "#53a051"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_47o7u8Sx": {
+            "dataSources": {
+                "primary": "ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_7OGFluf0": {
+            "dataSources": {
+                "primary": "ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_BaKPhdy0": {
+            "dataSources": {
+                "primary": "ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_CdOeeKuk": {
+            "dataSources": {
+                "primary": "ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_EktUYd0o": {
+            "dataSources": {
+                "primary": "ds_qMGwNXTf_ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_FhpUD6rq": {
+            "dataSources": {
+                "primary": "ds_MUu21plf_ds_32ESryjR_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "#53a051"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_FxuWlO7R": {
+            "dataSources": {
+                "primary": "ds_LmiLUwk8_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_IV3My45V": {
+            "dataSources": {
+                "primary": "ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_K0jbwUOS": {
+            "dataSources": {
+                "primary": "ds_32ESryjR_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "#53a051"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_Pa6dahfd": {
+            "dataSources": {
+                "primary": "ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_UqlcIwoC": {
+            "dataSources": {
+                "primary": "ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_WDMdUv8F": {
+            "dataSources": {
+                "primary": "ds_EHQ8ZJQr_ds_MUu21plf_ds_32ESryjR_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "#53a051"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_Y9Sx0IMV": {
+            "dataSources": {
+                "primary": "ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_bSh6cFfd": {
+            "dataSources": {
+                "primary": "ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_dlE5wZeh": {
+            "dataSources": {
+                "primary": "ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_fFT8I9L4": {
+            "dataSources": {
+                "primary": "ds_IJjP47y9_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_im7EFOH5": {
+            "dataSources": {
+                "primary": "ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_jA6nVd44": {
+            "dataSources": {
+                "primary": "ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_jPbDdUSp": {
+            "dataSources": {
+                "primary": "ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_qJOyeGo8": {
+            "dataSources": {
+                "primary": "ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_qvIv5V4o": {
+            "dataSources": {
+                "primary": "ds_0aRsVB6l"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "dataValuesDisplay": "off",
+                "legendTruncation": "ellipsisMiddle",
+                "lineDashStylesByField": {
+                    "Avg": "Solid"
+                },
+                "lineWidth": 2,
+                "nullValueDisplay": "connect",
+                "seriesColorsByField": {
+                    "Avg": "#1e93c6"
+                },
+                "showIndependentYRanges": false,
+                "showOverlayY2Axis": false,
+                "showRoundedY2AxisLabels": false,
+                "showSplitSeries": false,
+                "showY2MajorGridLines": true,
+                "showYAxisExtendedRange": false,
+                "showYMajorGridLines": false,
+                "xAxisLabelRotation": 0,
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "y2AxisAbbreviation": "auto",
+                "y2AxisScale": "inherit",
+                "y2AxisTitleVisibility": "show",
+                "yAxisAbbreviation": "auto",
+                "yAxisLabelVisibility": "hide",
+                "yAxisScale": "linear",
+                "yAxisTitleVisibility": "hide"
+            },
+            "type": "splunk.line"
+        },
+        "viz_sun9NvBF": {
+            "dataSources": {
+                "primary": "ds_HY5NFg4l_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_tztFjDA4": {
+            "dataSources": {
+                "primary": "ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+            },
+            "options": {
+                "backgroundColor": "transparent"
+            },
+            "type": "splunk.singlevalue"
+        }
+    },
+    "dataSources": {
+        "ds_0aRsVB6l": {
+            "name": "Line chart search",
+            "options": {
+                "query": "| mstats avg(\"cpu_metric.pctUser\") prestats=true WHERE \"index\"=\"cil_metrics\" span=10s\n| timechart avg(\"cpu_metric.pctUser\") AS Avg span=10s\n| fields - _span*",
+                "queryParameters": {
+                    "earliest": "-1h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_32ESryjR_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 22",
+            "options": {
+                "query": "| makeresults count=1\n| eval value = 0\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 16",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 3",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 1",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 6",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_EHQ8ZJQr_ds_MUu21plf_ds_32ESryjR_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 24",
+            "options": {
+                "query": "| makeresults count=1\n| eval value = 0\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_HY5NFg4l_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 20",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 5",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_IJjP47y9_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 2",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 12",
+            "options": {
+                "query": "| makeresults count=1\n| eval value = 0\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_LmiLUwk8_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 19",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 8",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_MUu21plf_ds_32ESryjR_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 23",
+            "options": {
+                "query": "| makeresults count=1\n| eval value = 0\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 17",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 7",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 4",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_V5iDxXAk_ds_IYgJNC9F_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 13",
+            "options": {
+                "query": "| makeresults count=1\n| eval value = 0\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 10",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_XKhQvV7w_ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 21",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 9",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 15",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 18",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_qMGwNXTf_ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 11",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
+            "name": "avg_cpu_temp copy 14",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        }
+    },
+    "layout": {
+        "globalInputs": [],
+        "layoutDefinitions": {
+            "layout_1": {
+                "options": {
+                    "backgroundImage": {
+                        "sizeType": "contain",
+                        "src": "https://raw.githubusercontent.com/benbigbeard/cil/main/iCooling_dashboard.png",
+                        "x": 0,
+                        "y": 0
+                    },
+                    "display": "auto",
+                    "height": 2160,
+                    "width": 3840
+                },
+                "structure": [
+                    {
+                        "item": "viz_qvIv5V4o",
+                        "position": {
+                            "h": 120,
+                            "w": 400,
+                            "x": 550,
+                            "y": 430
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_47o7u8Sx",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 550,
+                            "y": 550
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_bSh6cFfd",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 540,
+                            "y": 610
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_fFT8I9L4",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 750,
+                            "y": 550
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_im7EFOH5",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 750,
+                            "y": 610
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_BaKPhdy0",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 540,
+                            "y": 740
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_Pa6dahfd",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 750,
+                            "y": 740
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_CdOeeKuk",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 540,
+                            "y": 850
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_Y9Sx0IMV",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 750,
+                            "y": 850
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_UqlcIwoC",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 540,
+                            "y": 980
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_jPbDdUSp",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 750,
+                            "y": 980
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_tztFjDA4",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 540,
+                            "y": 1090
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_EktUYd0o",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 750,
+                            "y": 1090
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_46ZIKdxp",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 190,
+                            "y": 1300
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_IV3My45V",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1380,
+                            "y": 1320
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_qJOyeGo8",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1780,
+                            "y": 1320
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_dlE5wZeh",
+                        "position": {
+                            "h": 50,
+                            "w": 120,
+                            "x": 1560,
+                            "y": 1480
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_7OGFluf0",
+                        "position": {
+                            "h": 50,
+                            "w": 120,
+                            "x": 1560,
+                            "y": 1540
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_jA6nVd44",
+                        "position": {
+                            "h": 50,
+                            "w": 120,
+                            "x": 1560,
+                            "y": 1590
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_FxuWlO7R",
+                        "position": {
+                            "h": 50,
+                            "w": 120,
+                            "x": 1940,
+                            "y": 1480
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_sun9NvBF",
+                        "position": {
+                            "h": 50,
+                            "w": 120,
+                            "x": 1940,
+                            "y": 1540
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_03OHIkTg",
+                        "position": {
+                            "h": 50,
+                            "w": 120,
+                            "x": 1940,
+                            "y": 1590
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_K0jbwUOS",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 2300,
+                            "y": 760
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_FhpUD6rq",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 2300,
+                            "y": 950
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_WDMdUv8F",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 2310,
+                            "y": 1170
+                        },
+                        "type": "block"
+                    }
+                ],
+                "type": "absolute"
+            }
+        },
+        "options": {
+            "showTitleAndDescription": false
+        },
+        "tabs": {
+            "items": [
+                {
+                    "label": "New tab",
+                    "layoutId": "layout_1"
+                }
+            ]
+        }
+    }
+}
