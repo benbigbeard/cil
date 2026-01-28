@@ -1,0 +1,26 @@
+| makeresults
+| eval low=107, high=112
+| eval rack_density = low + (random() % (high - low + 1))
+| table low high rack_density
+
+
+| makeresults
+| eval low=107, high=112
+| eval rack_density = low + (random() % (high - low + 1))
+| eval avg_it_kw_per_rack = 4 + (random() % 5)   
+| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760
+| eval pue_target = round(1.30 + ((random() % 31) / 100), 2)  
+| eval total_dc_kwh_annual = round(rack_kwh_annual * pue_target, 0)
+| eval pue_calc = round(total_dc_kwh_annual / rack_kwh_annual, 2)
+| table rack_density avg_it_kw_per_rack rack_kwh_annual total_dc_kwh_annual pue_calc
+
+
+| makeresults
+| eval low=107, high=112
+| eval rack_density = low + (random() % (high - low + 1))
+| eval avg_it_kw_per_rack = 4 + (random() % 5)  
+| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760
+| eval wue_target = round(0.10 + ((random() % 71) / 100), 2) 
+| eval water_litres_annual = round(rack_kwh_annual * wue_target, 0)
+| eval wue_calc = round(water_litres_annual / rack_kwh_annual, 2)
+| table rack_density avg_it_kw_per_rack rack_kwh_annual water_litres_annual wue_calc
