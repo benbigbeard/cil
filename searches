@@ -24,3 +24,40 @@
 | eval water_litres_annual = round(rack_kwh_annual * wue_target, 0)
 | eval wue_calc = round(water_litres_annual / rack_kwh_annual, 2)
 | table rack_density avg_it_kw_per_rack rack_kwh_annual water_litres_annual wue_calc
+
+
+Sparkline
+
+| makeresults
+| eval low=107, high=112
+| eval start_time=relative_time(now(), "-30d@d"), end_time=now()
+| gentimes start=start_time end=end_time increment=1d
+| eval rack_density = low + (random() % (high - low + 1))
+| table _time rack_density
+
+| makeresults
+| eval low=107, high=112
+| eval start_time=relative_time(now(), "-30d@d"), end_time=now()
+| gentimes start=start_time end=end_time increment=1d
+| eval rack_density = low + (random() % (high - low + 1))
+| eval avg_it_kw_per_rack = 4 + (random() % 5)
+| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760
+| eval pue_target = round(1.30 + ((random() % 31) / 100), 2)
+| eval total_dc_kwh_annual = rack_kwh_annual * pue_target
+| eval pue = round(total_dc_kwh_annual / rack_kwh_annual, 2)
+| table _time pue
+
+| makeresults
+| eval low=107, high=112
+| eval start_time=relative_time(now(), "-30d@d"), end_time=now()
+| gentimes start=start_time end=end_time increment=1d
+| eval rack_density = low + (random() % (high - low + 1))
+| eval avg_it_kw_per_rack = 4 + (random() % 5)
+| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760
+| eval wue_target = round(0.10 + ((random() % 71) / 100), 2)
+| eval water_litres_annual = rack_kwh_annual * wue_target
+| eval wue = round(water_litres_annual / rack_kwh_annual, 2)
+| table _time wue
+
+
+
