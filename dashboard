@@ -1,7 +1,6 @@
 {
     "title": "i-Cooling",
     "description": "",
-    "inputs": {},
     "defaults": {
         "dataSources": {
             "ds.search": {
@@ -15,12 +14,102 @@
         }
     },
     "visualizations": {
-        "viz_03OHIkTg": {
+        "viz_2ugIU25O": {
+            "containerOptions": {},
             "dataSources": {
-                "primary": "ds_XKhQvV7w_ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+                "primary": "ds_qY2MhMF4"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "legendDisplay": "off",
+                "nullValueDisplay": "connect",
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "yAxisLabelVisibility": "hide",
+                "yAxisMajorTickVisibility": "hide",
+                "yAxisMinorTickVisibility": "hide",
+                "yAxisTitleVisibility": "hide"
+            },
+            "showLastUpdated": false,
+            "showProgressBar": false,
+            "type": "splunk.area"
+        },
+        "viz_3583kNQO": {
+            "context": {
+                "convertedColorRange": [
+                    {
+                        "from": 100,
+                        "value": "#dc4e41"
+                    },
+                    {
+                        "from": 70,
+                        "to": 100,
+                        "value": "#f1813f"
+                    },
+                    {
+                        "from": 30,
+                        "to": 70,
+                        "value": "#f8be34"
+                    },
+                    {
+                        "from": 0,
+                        "to": 30,
+                        "value": "#0877a6"
+                    },
+                    {
+                        "to": 0,
+                        "value": "#53a051"
+                    }
+                ],
+                "majorColorEditorConfig": [
+                    {
+                        "to": 100,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 100,
+                        "to": 400,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 400,
+                        "to": 600,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 600,
+                        "to": 800,
+                        "value": "#9d9f0d"
+                    },
+                    {
+                        "from": 800,
+                        "to": 1000,
+                        "value": "#cba700"
+                    },
+                    {
+                        "from": 1000,
+                        "to": 2500,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 2500,
+                        "value": "#d94e17"
+                    }
+                ]
+            },
+            "dataSources": {
+                "primary": "ds_9ctUTb6I"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "numberPrecision": 0,
+                "shouldUseThousandSeparators": true,
+                "sparklineDisplay": "off",
+                "trendDisplay": "off",
+                "unit": "IAQ",
+                "unitPosition": "after"
             },
             "type": "splunk.singlevalue"
         },
@@ -35,29 +124,221 @@
             "type": "splunk.singlevalue"
         },
         "viz_47o7u8Sx": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
             "dataSources": {
                 "primary": "ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": ""
             },
             "type": "splunk.singlevalue"
         },
-        "viz_7OGFluf0": {
+        "viz_6lQrdfDy": {
+            "context": {
+                "convertedColorRange": [
+                    {
+                        "from": 100,
+                        "value": "#dc4e41"
+                    },
+                    {
+                        "from": 70,
+                        "to": 100,
+                        "value": "#f1813f"
+                    },
+                    {
+                        "from": 30,
+                        "to": 70,
+                        "value": "#f8be34"
+                    },
+                    {
+                        "from": 0,
+                        "to": 30,
+                        "value": "#0877a6"
+                    },
+                    {
+                        "to": 0,
+                        "value": "#53a051"
+                    }
+                ],
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 22,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 22,
+                        "to": 23,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 23,
+                        "to": 90,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 90,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
             "dataSources": {
-                "primary": "ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+                "primary": "ds_0OctTjK1"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "numberPrecision": 0,
+                "shouldUseThousandSeparators": true,
+                "sparklineDisplay": "below",
+                "trendDisplay": "off",
+                "unit": "°C",
+                "unitPosition": "after"
             },
             "type": "splunk.singlevalue"
         },
+        "viz_7VJIAR8k": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
+            "dataSources": {
+                "primary": "ds_mOvhQEO9"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": "°C"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_AHelRhIx": {
+            "dataSources": {
+                "primary": "ds_9JIuRhGZ"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "dataValuesDisplay": "off",
+                "legendDisplay": "left",
+                "legendTruncation": "ellipsisMiddle",
+                "lineDashStylesByField": {
+                    "Avg": "Solid"
+                },
+                "lineWidth": 2,
+                "nullValueDisplay": "connect",
+                "seriesColorsByField": {
+                    "Avg": "#1e93c6"
+                },
+                "showIndependentYRanges": false,
+                "showOverlayY2Axis": false,
+                "showRoundedY2AxisLabels": false,
+                "showSplitSeries": false,
+                "showY2MajorGridLines": true,
+                "showYAxisExtendedRange": false,
+                "showYMajorGridLines": false,
+                "xAxisLabelRotation": 0,
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "y2AxisAbbreviation": "auto",
+                "y2AxisTitleVisibility": "show",
+                "yAxisAbbreviation": "auto",
+                "yAxisLabelVisibility": "hide",
+                "yAxisScale": "linear",
+                "yAxisTitleVisibility": "hide"
+            },
+            "type": "splunk.line"
+        },
         "viz_BaKPhdy0": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#D41F1F"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#D94E17"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#CBA700"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#ffffff"
+                    }
+                ]
+            },
             "dataSources": {
                 "primary": "ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": "%"
             },
             "type": "splunk.singlevalue"
         },
@@ -66,16 +347,9 @@
                 "primary": "ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
-            },
-            "type": "splunk.singlevalue"
-        },
-        "viz_EktUYd0o": {
-            "dataSources": {
-                "primary": "ds_qMGwNXTf_ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
-            },
-            "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "#ffffff",
+                "unit": "kW"
             },
             "type": "splunk.singlevalue"
         },
@@ -94,16 +368,19 @@
                 "primary": "ds_LmiLUwk8_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "#708794"
             },
             "type": "splunk.singlevalue"
         },
-        "viz_IV3My45V": {
+        "viz_HCwGaKOK": {
             "dataSources": {
-                "primary": "ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+                "primary": "ds_kDmeA6I5"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "#ffffff",
+                "unit": "WUE"
             },
             "type": "splunk.singlevalue"
         },
@@ -117,22 +394,51 @@
             },
             "type": "splunk.singlevalue"
         },
+        "viz_K2JPqZ36": {
+            "dataSources": {
+                "primary": "ds_nZ1gEJAV"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "#ffffff",
+                "unit": "PUE"
+            },
+            "type": "splunk.singlevalue"
+        },
         "viz_Pa6dahfd": {
+            "containerOptions": {},
             "dataSources": {
                 "primary": "ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "legendDisplay": "off",
+                "legendTruncation": "ellipsisOff",
+                "nullValueDisplay": "connect",
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "yAxisLabelVisibility": "hide",
+                "yAxisMajorTickVisibility": "hide",
+                "yAxisMinorTickVisibility": "hide",
+                "yAxisTitleVisibility": "hide"
             },
-            "type": "splunk.singlevalue"
+            "showLastUpdated": false,
+            "showProgressBar": false,
+            "type": "splunk.area"
         },
         "viz_UqlcIwoC": {
+            "containerOptions": {},
             "dataSources": {
                 "primary": "ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "numberPrecision": 2,
+                "unit": ""
             },
+            "showLastUpdated": false,
+            "showProgressBar": false,
             "type": "splunk.singlevalue"
         },
         "viz_WDMdUv8F": {
@@ -145,48 +451,168 @@
             },
             "type": "splunk.singlevalue"
         },
-        "viz_Y9Sx0IMV": {
+        "viz_ZnseyGH0": {
+            "containerOptions": {},
             "dataSources": {
-                "primary": "ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+                "primary": "ds_jPeJbdz1"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "legendDisplay": "off",
+                "nullValueDisplay": "connect",
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "yAxisLabelVisibility": "hide",
+                "yAxisMajorTickVisibility": "hide",
+                "yAxisMinorTickVisibility": "hide",
+                "yAxisTitleVisibility": "hide"
             },
-            "type": "splunk.singlevalue"
+            "showLastUpdated": false,
+            "showProgressBar": false,
+            "type": "splunk.area"
         },
         "viz_bSh6cFfd": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
             "dataSources": {
                 "primary": "ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": "°C"
             },
             "type": "splunk.singlevalue"
         },
-        "viz_dlE5wZeh": {
+        "viz_cu5nvnAQ": {
+            "context": {
+                "convertedColorRange": [
+                    {
+                        "from": 100,
+                        "value": "#dc4e41"
+                    },
+                    {
+                        "from": 70,
+                        "to": 100,
+                        "value": "#f1813f"
+                    },
+                    {
+                        "from": 30,
+                        "to": 70,
+                        "value": "#f8be34"
+                    },
+                    {
+                        "from": 0,
+                        "to": 30,
+                        "value": "#0877a6"
+                    },
+                    {
+                        "to": 0,
+                        "value": "#53a051"
+                    }
+                ],
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 50,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 50,
+                        "to": 90,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 90,
+                        "to": 100,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 100,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
             "dataSources": {
-                "primary": "ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+                "primary": "ds_LZPgO8cQ"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "numberPrecision": 0,
+                "shouldUseThousandSeparators": true,
+                "sparklineDisplay": "off",
+                "trendDisplay": "off",
+                "unit": "dBA",
+                "unitPosition": "after"
             },
             "type": "splunk.singlevalue"
         },
-        "viz_fFT8I9L4": {
+        "viz_hSAuQcsr": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
             "dataSources": {
-                "primary": "ds_IJjP47y9_ds_4Wv0f7T2"
+                "primary": "ds_EEkVuXbD"
             },
             "options": {
-                "backgroundColor": "transparent"
-            },
-            "type": "splunk.singlevalue"
-        },
-        "viz_im7EFOH5": {
-            "dataSources": {
-                "primary": "ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
-            },
-            "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": "°C"
             },
             "type": "splunk.singlevalue"
         },
@@ -195,25 +621,283 @@
                 "primary": "ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "#708794"
             },
             "type": "splunk.singlevalue"
         },
-        "viz_jPbDdUSp": {
+        "viz_jEyqP045": {
+            "context": {
+                "convertedColorRange": [
+                    {
+                        "from": 100,
+                        "value": "#dc4e41"
+                    },
+                    {
+                        "from": 70,
+                        "to": 100,
+                        "value": "#f1813f"
+                    },
+                    {
+                        "from": 30,
+                        "to": 70,
+                        "value": "#f8be34"
+                    },
+                    {
+                        "from": 0,
+                        "to": 30,
+                        "value": "#0877a6"
+                    },
+                    {
+                        "to": 0,
+                        "value": "#53a051"
+                    }
+                ],
+                "majorColorEditorConfig": [
+                    {
+                        "to": 50,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 50,
+                        "to": 51,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 51,
+                        "to": 100,
+                        "value": "#cba700"
+                    },
+                    {
+                        "from": 100,
+                        "to": 151,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 151,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
             "dataSources": {
-                "primary": "ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2"
+                "primary": "ds_kkH53PXF"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "numberPrecision": 0,
+                "shouldUseThousandSeparators": true,
+                "sparklineDisplay": "off",
+                "trendDisplay": "off",
+                "unit": "IAQ",
+                "unitPosition": "after"
             },
             "type": "splunk.singlevalue"
         },
-        "viz_qJOyeGo8": {
+        "viz_lDCa1YEQ": {
+            "containerOptions": {},
             "dataSources": {
-                "primary": "ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
+                "primary": "ds_PZs9F9ZC"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "legendDisplay": "off",
+                "legendTruncation": "ellipsisOff",
+                "nullValueDisplay": "connect",
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "yAxisLabelVisibility": "hide",
+                "yAxisMajorTickVisibility": "hide",
+                "yAxisMinorTickVisibility": "hide",
+                "yAxisTitleVisibility": "hide"
+            },
+            "showLastUpdated": false,
+            "showProgressBar": false,
+            "type": "splunk.area"
+        },
+        "viz_mL8Fl7di": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#D41F1F"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#D94E17"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#CBA700"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#ffffff"
+                    }
+                ]
+            },
+            "dataSources": {
+                "primary": "ds_7QqxriIJ"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": "%"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_pRrEchgA": {
+            "context": {
+                "convertedColorRange": [
+                    {
+                        "from": 100,
+                        "value": "#dc4e41"
+                    },
+                    {
+                        "from": 70,
+                        "to": 100,
+                        "value": "#f1813f"
+                    },
+                    {
+                        "from": 30,
+                        "to": 70,
+                        "value": "#f8be34"
+                    },
+                    {
+                        "from": 0,
+                        "to": 30,
+                        "value": "#0877a6"
+                    },
+                    {
+                        "to": 0,
+                        "value": "#53a051"
+                    }
+                ],
+                "majorColorEditorConfig": [
+                    {
+                        "to": 1,
+                        "value": "#D41F1F"
+                    },
+                    {
+                        "from": 1,
+                        "to": 40,
+                        "value": "#d41f1f"
+                    },
+                    {
+                        "from": 40,
+                        "to": 61,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 61,
+                        "to": 90,
+                        "value": "#d94e17"
+                    },
+                    {
+                        "from": 90,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
+            "dataSources": {
+                "primary": "ds_xHyiSfuZ"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "numberPrecision": 0,
+                "shouldUseThousandSeparators": true,
+                "sparklineDisplay": "off",
+                "trendDisplay": "off",
+                "unit": "%",
+                "unitPosition": "after"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_pukREXxT": {
+            "dataSources": {
+                "primary": "ds_CKNvsRa9"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "#ffffff",
+                "unit": "kW"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_qtRdmIt5": {
+            "context": {
+                "convertedColorRange": [
+                    {
+                        "from": 100,
+                        "value": "#dc4e41"
+                    },
+                    {
+                        "from": 70,
+                        "to": 100,
+                        "value": "#f1813f"
+                    },
+                    {
+                        "from": 30,
+                        "to": 70,
+                        "value": "#f8be34"
+                    },
+                    {
+                        "from": 0,
+                        "to": 30,
+                        "value": "#0877a6"
+                    },
+                    {
+                        "to": 0,
+                        "value": "#53a051"
+                    }
+                ],
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 22,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 22,
+                        "to": 23,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 23,
+                        "to": 90,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 90,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
+            "dataSources": {
+                "primary": "ds_dTW2tHLS"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "numberPrecision": 0,
+                "shouldUseThousandSeparators": true,
+                "sparklineDisplay": "below",
+                "trendDisplay": "off",
+                "unit": "°C",
+                "unitPosition": "after"
             },
             "type": "splunk.singlevalue"
         },
@@ -245,7 +929,6 @@
                 "xAxisMajorTickVisibility": "hide",
                 "xAxisTitleVisibility": "hide",
                 "y2AxisAbbreviation": "auto",
-                "y2AxisScale": "inherit",
                 "y2AxisTitleVisibility": "show",
                 "yAxisAbbreviation": "auto",
                 "yAxisLabelVisibility": "hide",
@@ -254,30 +937,94 @@
             },
             "type": "splunk.line"
         },
-        "viz_sun9NvBF": {
-            "dataSources": {
-                "primary": "ds_HY5NFg4l_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
-            },
-            "options": {
-                "backgroundColor": "transparent"
-            },
-            "type": "splunk.singlevalue"
-        },
         "viz_tztFjDA4": {
             "dataSources": {
                 "primary": "ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2"
             },
             "options": {
-                "backgroundColor": "transparent"
+                "backgroundColor": "transparent",
+                "majorColor": "#ffffff",
+                "unit": ""
             },
             "type": "splunk.singlevalue"
+        },
+        "viz_x0knTijx": {
+            "context": {
+                "majorColorEditorConfig": [
+                    {
+                        "to": 20,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 20,
+                        "to": 40,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 40,
+                        "to": 60,
+                        "value": "#ffffff"
+                    },
+                    {
+                        "from": 60,
+                        "to": 80,
+                        "value": "#d97a0d"
+                    },
+                    {
+                        "from": 80,
+                        "value": "#d41f1f"
+                    }
+                ]
+            },
+            "dataSources": {
+                "primary": "ds_lLnEWB74"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "majorColor": "> majorValue | rangeValue(majorColorEditorConfig)",
+                "unit": "°C"
+            },
+            "type": "splunk.singlevalue"
+        },
+        "viz_xoWPt7xc": {
+            "containerOptions": {},
+            "dataSources": {
+                "primary": "ds_qFxzf1XT"
+            },
+            "options": {
+                "backgroundColor": "transparent",
+                "legendDisplay": "off",
+                "nullValueDisplay": "connect",
+                "xAxisLabelVisibility": "hide",
+                "xAxisMajorTickVisibility": "hide",
+                "xAxisTitleVisibility": "hide",
+                "yAxisLabelVisibility": "hide",
+                "yAxisMajorTickVisibility": "hide",
+                "yAxisMinorTickVisibility": "hide",
+                "yAxisTitleVisibility": "hide"
+            },
+            "showLastUpdated": false,
+            "showProgressBar": false,
+            "type": "splunk.area"
         }
     },
     "dataSources": {
+        "ds_0OctTjK1": {
+            "name": "Single value search",
+            "options": {
+                "query": "index=meraki |timechart values(\"payload.celsius\") |filldown",
+                "queryParameters": {
+                    "earliest": "-60m@m",
+                    "latest": "now",
+                    "sampleRatio": 1
+                }
+            },
+            "type": "ds.search"
+        },
         "ds_0aRsVB6l": {
             "name": "Line chart search",
             "options": {
-                "query": "| mstats avg(\"cpu_metric.pctUser\") prestats=true WHERE \"index\"=\"cil_metrics\" span=10s\n| timechart avg(\"cpu_metric.pctUser\") AS Avg span=10s\n| fields - _span*",
+                "query": "| mstats max(\"cpu_metric.pctUser\") prestats=true WHERE \"index\"=\"cil\" span=10s BY CPU\n| timechart max(\"cpu_metric.pctUser\") span=10s useother=false BY CPU WHERE max in top5\n| fields - _span*",
                 "queryParameters": {
                     "earliest": "-1h",
                     "latest": "now"
@@ -340,10 +1087,66 @@
             },
             "type": "ds.search"
         },
+        "ds_7QqxriIJ": {
+            "name": "avg_cpu_temp copy 34",
+            "options": {
+                "query": "index=main source=vmstat| eval avgmem=round((memFreeMB/memTotalMB)*100,2)\n| stats latest(avgmem) as avgmem\n|  eval avgmem=avgmem/1.03",
+                "queryParameters": {
+                    "earliest": "-60m@m",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_9JIuRhGZ": {
+            "name": "Line chart search copy 31",
+            "options": {
+                "query": "| mstats max(\"cpu_metric.pctUser\") prestats=true WHERE \"index\"=\"cil\" span=10s BY CPU\n| timechart max(\"cpu_metric.pctUser\") span=10s useother=false BY CPU WHERE max in top5\n| fields - _span*",
+                "queryParameters": {
+                    "earliest": "-1h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_9ctUTb6I": {
+            "name": "Single value search copy 29",
+            "options": {
+                "query": "index=meraki metric=co2 |timechart values(value) |filldown",
+                "queryParameters": {
+                    "earliest": "-60m@m",
+                    "latest": "now",
+                    "sampleRatio": 1
+                }
+            },
+            "type": "ds.search"
+        },
         "ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 6",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "query": "| makeresults\n| eval low=107, high=112\n| eval rack_density = low + (random() % (high - low + 1))\n| table low high rack_density",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_CKNvsRa9": {
+            "name": "avg_cpu_temp copy 35",
+            "options": {
+                "query": "| makeresults\n| eval low=112, high=115\n| eval rack_density = low + (random() % (high - low + 1))\n| table low high rack_density",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_EEkVuXbD": {
+            "name": "avg_cpu_temp copy 43",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n|  eval avg=avg*1.40\n| eval avg=if(avg<92, avg, 90)\n| table avg",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -376,9 +1179,9 @@
         "ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 5",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "query": "index=main source=vmstat| eval avgmem=round((memFreeMB/memTotalMB)*100,2)\n|timechart values(avgmem)",
                 "queryParameters": {
-                    "earliest": "-24h@h",
+                    "earliest": "-15m",
                     "latest": "now"
                 }
             },
@@ -389,7 +1192,7 @@
             "options": {
                 "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
                 "queryParameters": {
-                    "earliest": "-24h@h",
+                    "earliest": "-15m",
                     "latest": "now"
                 }
             },
@@ -406,10 +1209,44 @@
             },
             "type": "ds.search"
         },
+        "ds_LZPgO8cQ": {
+            "name": "Single value search copy 27",
+            "options": {
+                "query": "index=meraki metric=noise |timechart values(value) |filldown",
+                "queryParameters": {
+                    "earliest": "-60m@m",
+                    "latest": "now",
+                    "sampleRatio": 1
+                }
+            },
+            "type": "ds.search"
+        },
         "ds_LmiLUwk8_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 19",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "query": "|  makeresults count=1\n| eval value=\"N/A\"\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_LzFmVhYp": {
+            "name": "avg_cpu_temp copy 32",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n|  eval avg=avg*1.03\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_M2KMUMSm": {
+            "name": "avg_cpu_temp copy 42",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n|  eval avg=avg*1.40\n| eval avg=if(avg<92, avg, 90)\n| table avg",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -420,7 +1257,7 @@
         "ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 8",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "query": "| makeresults\n| eval low=107, high=112\n| eval rack_density = low + (random() % (high - low + 1))\n| eval avg_it_kw_per_rack = 4 + (random() % 5)   \n| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760\n| eval pue_target = 1.02  \n| eval total_dc_kwh_annual = round(rack_kwh_annual * pue_target, 0)\n| eval pue_calc = round(total_dc_kwh_annual / rack_kwh_annual, 2)\n| table pue_calc avg_it_kw_per_rack rack_kwh_annual total_dc_kwh_annual pue_calc",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -432,6 +1269,28 @@
             "name": "avg_cpu_temp copy 23",
             "options": {
                 "query": "| makeresults count=1\n| eval value = 0\n| table value",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_PZs9F9ZC": {
+            "name": "avg_cpu_temp copy 40",
+            "options": {
+                "query": "index=main source=vmstat| eval avgmem=round((memFreeMB/memTotalMB)*100,2)\n|timechart values(avgmem)",
+                "queryParameters": {
+                    "earliest": "-15m",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_R4Hi0m8Q": {
+            "name": "avg_cpu_temp copy 41",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n|  eval avg=avg*1.40\n| eval avg=if(avg<92, avg, 90)\n| table avg",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -453,7 +1312,7 @@
         "ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 7",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "query": "| makeresults\n| eval low=107, high=112\n| eval start_time=relative_time(now(), \"-30d@d\"), end_time=now()\n| gentimes start=start_time end=end_time increment=1d\n| eval rack_density = low + (random() % (high - low + 1))\n| table _time rack_density",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -464,9 +1323,9 @@
         "ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 4",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "query": "index=main source=vmstat| eval avgmem=round((memFreeMB/memTotalMB)*100,2)\n| stats latest(avgmem)",
                 "queryParameters": {
-                    "earliest": "-24h@h",
+                    "earliest": "-60m@m",
                     "latest": "now"
                 }
             },
@@ -486,7 +1345,7 @@
         "ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 10",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "query": "| makeresults\n| eval low=107, high=112, const=0\n| eval rack_density = low + (random() % (high - low + 1))\n| eval avg_it_kw_per_rack = 4 + (random() % 5)  \n| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760\n| eval wue_target = round(0.10 + ((random() % 71) / 100), 2) \n| eval water_litres_annual = round(rack_kwh_annual * wue_target, 0)\n| eval wue_calc = round(water_litres_annual / rack_kwh_annual, 2)\n| table const rack_density avg_it_kw_per_rack rack_kwh_annual water_litres_annual wue_calc",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -508,10 +1367,22 @@
         "ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 9",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "query": "| makeresults\n| eval low=107, high=112\n| eval start_time=relative_time(now(), \"-30d@d\"), end_time=now()\n| gentimes start=start_time end=end_time increment=1d\n| eval rack_density = low + (random() % (high - low + 1))\n| eval avg_it_kw_per_rack = 4 + (random() % 5)\n| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760\n| eval pue_target = round(1.30 + ((random() % 31) / 100), 2)\n| eval total_dc_kwh_annual = rack_kwh_annual * pue_target\n| eval pue = round(total_dc_kwh_annual / rack_kwh_annual, 2)\n| table _time pue\n",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_dTW2tHLS": {
+            "name": "Single value search copy 30",
+            "options": {
+                "query": "index=meraki |timechart values(\"payload.celsius\") as temp\n|  eval temp=temp+2 |filldown",
+                "queryParameters": {
+                    "earliest": "-60m@m",
+                    "latest": "now",
+                    "sampleRatio": 1
                 }
             },
             "type": "ds.search"
@@ -527,12 +1398,90 @@
             },
             "type": "ds.search"
         },
+        "ds_jPeJbdz1": {
+            "name": "avg_cpu_temp copy 39",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-15m",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_kDmeA6I5": {
+            "name": "avg_cpu_temp copy 37",
+            "options": {
+                "query": "| makeresults\n| eval low=112, high=115\n| eval rack_density = low + (random() % (high - low + 1))\n| eval avg_it_kw_per_rack = 4 + (random() % 5)  \n| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760\n| eval wue_target = round(0.10 + ((random() % 71) / 100), 2) \n| eval water_litres_annual = round(rack_kwh_annual * wue_target, 0)\n| eval wue_calc = round(water_litres_annual / rack_kwh_annual, 2)\n| table rack_density avg_it_kw_per_rack rack_kwh_annual water_litres_annual wue_calc",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_kkH53PXF": {
+            "name": "Single value search copy 28",
+            "options": {
+                "query": "index=meraki metric=indoorAirQuality |timechart values(value) |filldown",
+                "queryParameters": {
+                    "earliest": "-15m",
+                    "latest": "now",
+                    "sampleRatio": 1
+                }
+            },
+            "type": "ds.search"
+        },
         "ds_lKvbUrjy_ds_S39xB0cc_ds_3l1VhArK_ds_gaFvXIOq_ds_ua2lGn86_ds_VomTdyJc_ds_M6ZoMgIu_ds_CHmXa9eD_ds_TwXvbV22_ds_5wZbQ8OV_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 18",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "query": "| makeresults count=1\n|  eval value=\"N/A\"\n| table value",
                 "queryParameters": {
                     "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_lLnEWB74": {
+            "name": "avg_cpu_temp copy 45",
+            "options": {
+                "query": "| makeresults\n| eval low=107, high=112\n| eval rack_density = low + (random() % (high - low + 1))\n| table rack_density low high",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_mOvhQEO9": {
+            "name": "avg_cpu_temp copy 33",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n|  eval avg=avg*1.40\n| eval avg=if(avg<92, avg, 90)\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_nZ1gEJAV": {
+            "name": "avg_cpu_temp copy 36",
+            "options": {
+                "query": "| makeresults\n| eval low=112, high=115\n| eval rack_density = low + (random() % (high - low + 1))\n| eval avg_it_kw_per_rack = 4 + (random() % 5)   \n| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760\n| eval pue_target = round(1.30 + ((random() % 31) / 100), 2)  \n| eval total_dc_kwh_annual = round(rack_kwh_annual * pue_target, 0)\n| eval pue_calc = round(total_dc_kwh_annual / rack_kwh_annual, 2)\n| table rack_density avg_it_kw_per_rack rack_kwh_annual total_dc_kwh_annual pue_calc",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_qFxzf1XT": {
+            "name": "avg_cpu_temp copy 25",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-15m",
                     "latest": "now"
                 }
             },
@@ -541,9 +1490,20 @@
         "ds_qMGwNXTf_ds_XcCkwe8A_ds_TTnyDHRO_ds_HkqZBRmt_ds_4KeIlSAc_ds_IJjP47y9_ds_4Wv0f7T2": {
             "name": "avg_cpu_temp copy 11",
             "options": {
-                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "query": "| makeresults\n| eval low=107, high=112\n| eval start_time=relative_time(now(), \"-30d@d\"), end_time=now()\n| gentimes start=start_time end=end_time increment=1d\n| eval rack_density = low + (random() % (high - low + 1))\n| eval avg_it_kw_per_rack = 4 + (random() % 5)\n| eval rack_kwh_annual = rack_density * avg_it_kw_per_rack * 8760\n| eval wue_target = round(0.10 + ((random() % 71) / 100), 2)\n| eval water_litres_annual = rack_kwh_annual * wue_target\n| eval wue = round(water_litres_annual / rack_kwh_annual, 2)\n| table _time wue",
                 "queryParameters": {
                     "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_qY2MhMF4": {
+            "name": "avg_cpu_temp copy 38",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| timechart values(temp_c) ",
+                "queryParameters": {
+                    "earliest": "-15m",
                     "latest": "now"
                 }
             },
@@ -553,6 +1513,29 @@
             "name": "avg_cpu_temp copy 14",
             "options": {
                 "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n| table avg",
+                "queryParameters": {
+                    "earliest": "-24h@h",
+                    "latest": "now"
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_xHyiSfuZ": {
+            "name": "Single value search copy 26",
+            "options": {
+                "query": "index=meraki metric=humidity |timechart values(value) |filldown",
+                "queryParameters": {
+                    "earliest": "-60m@m",
+                    "latest": "now",
+                    "sampleRatio": 1
+                }
+            },
+            "type": "ds.search"
+        },
+        "ds_xJu8Un7N": {
+            "name": "avg_cpu_temp copy 44",
+            "options": {
+                "query": "index=main sourcetype=linux:cpu_temp \n| stats avg(temp_c) as avg\n|  eval avg=avg*1.40\n| eval avg=if(avg<92, avg, 90)\n| table avg",
                 "queryParameters": {
                     "earliest": "-24h@h",
                     "latest": "now"
@@ -592,7 +1575,7 @@
                         "position": {
                             "h": 90,
                             "w": 210,
-                            "x": 550,
+                            "x": 540,
                             "y": 550
                         },
                         "type": "block"
@@ -603,27 +1586,7 @@
                             "h": 90,
                             "w": 210,
                             "x": 540,
-                            "y": 610
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_fFT8I9L4",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 750,
-                            "y": 550
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_im7EFOH5",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 750,
-                            "y": 610
+                            "y": 630
                         },
                         "type": "block"
                     },
@@ -642,8 +1605,8 @@
                         "position": {
                             "h": 90,
                             "w": 210,
-                            "x": 750,
-                            "y": 740
+                            "x": 730,
+                            "y": 730
                         },
                         "type": "block"
                     },
@@ -652,17 +1615,7 @@
                         "position": {
                             "h": 90,
                             "w": 210,
-                            "x": 540,
-                            "y": 850
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_Y9Sx0IMV",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 750,
+                            "x": 650,
                             "y": 850
                         },
                         "type": "block"
@@ -670,40 +1623,20 @@
                     {
                         "item": "viz_UqlcIwoC",
                         "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 540,
-                            "y": 980
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_jPbDdUSp",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 750,
-                            "y": 980
+                            "h": 100,
+                            "w": 225,
+                            "x": 640,
+                            "y": 970
                         },
                         "type": "block"
                     },
                     {
                         "item": "viz_tztFjDA4",
                         "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 540,
-                            "y": 1090
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_EktUYd0o",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 750,
-                            "y": 1090
+                            "h": 105,
+                            "w": 235,
+                            "x": 640,
+                            "y": 1100
                         },
                         "type": "block"
                     },
@@ -713,47 +1646,7 @@
                             "h": 90,
                             "w": 210,
                             "x": 190,
-                            "y": 1300
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_IV3My45V",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 1380,
-                            "y": 1320
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_qJOyeGo8",
-                        "position": {
-                            "h": 90,
-                            "w": 210,
-                            "x": 1780,
-                            "y": 1320
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_dlE5wZeh",
-                        "position": {
-                            "h": 50,
-                            "w": 120,
-                            "x": 1560,
-                            "y": 1480
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_7OGFluf0",
-                        "position": {
-                            "h": 50,
-                            "w": 120,
-                            "x": 1560,
-                            "y": 1540
+                            "y": 1280
                         },
                         "type": "block"
                     },
@@ -774,26 +1667,6 @@
                             "w": 120,
                             "x": 1940,
                             "y": 1480
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_sun9NvBF",
-                        "position": {
-                            "h": 50,
-                            "w": 120,
-                            "x": 1940,
-                            "y": 1540
-                        },
-                        "type": "block"
-                    },
-                    {
-                        "item": "viz_03OHIkTg",
-                        "position": {
-                            "h": 50,
-                            "w": 120,
-                            "x": 1940,
-                            "y": 1590
                         },
                         "type": "block"
                     },
@@ -826,6 +1699,186 @@
                             "y": 1170
                         },
                         "type": "block"
+                    },
+                    {
+                        "item": "viz_xoWPt7xc",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 730,
+                            "y": 610
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_6lQrdfDy",
+                        "position": {
+                            "h": 130,
+                            "w": 270,
+                            "x": 1360,
+                            "y": 1312
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_pRrEchgA",
+                        "position": {
+                            "h": 60,
+                            "w": 150,
+                            "x": 1540,
+                            "y": 1480
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_cu5nvnAQ",
+                        "position": {
+                            "h": 90,
+                            "w": 180,
+                            "x": 1540,
+                            "y": 1520
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_jEyqP045",
+                        "position": {
+                            "h": 90,
+                            "w": 180,
+                            "x": 1920,
+                            "y": 1578
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_3583kNQO",
+                        "position": {
+                            "h": 90,
+                            "w": 180,
+                            "x": 1920,
+                            "y": 1517
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_qtRdmIt5",
+                        "position": {
+                            "h": 130,
+                            "w": 270,
+                            "x": 1759,
+                            "y": 1310
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_AHelRhIx",
+                        "position": {
+                            "h": 120,
+                            "w": 400,
+                            "x": 1310,
+                            "y": 430
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_7VJIAR8k",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1520,
+                            "y": 550
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_mL8Fl7di",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1520,
+                            "y": 740
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_pukREXxT",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1412,
+                            "y": 855
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_K2JPqZ36",
+                        "position": {
+                            "h": 100,
+                            "w": 225,
+                            "x": 1410,
+                            "y": 970
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_HCwGaKOK",
+                        "position": {
+                            "h": 105,
+                            "w": 235,
+                            "x": 1410,
+                            "y": 1090
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_2ugIU25O",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1320,
+                            "y": 540
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_ZnseyGH0",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1320,
+                            "y": 610
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_lDCa1YEQ",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1329,
+                            "y": 730
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_hSAuQcsr",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 1520,
+                            "y": 630
+                        },
+                        "type": "block"
+                    },
+                    {
+                        "item": "viz_x0knTijx",
+                        "position": {
+                            "h": 90,
+                            "w": 210,
+                            "x": 700,
+                            "y": 550
+                        },
+                        "type": "block"
                     }
                 ],
                 "type": "absolute"
@@ -842,5 +1895,6 @@
                 }
             ]
         }
-    }
+    },
+    "applicationProperties": {}
 }
